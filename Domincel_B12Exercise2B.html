@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts Embeded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts Embeded -->
+    <title>Checkout</title>
+  </head>
+  <body>
+    <!-- Added MainWrapper -->
+    <div id="mainWrapper2B">
+      <h1 class="centered">Checkout Form</h1>
+      <!-- Table Starts Here -->
+      <table>
+        <!-- Name Section -->
+        <tr>
+          <td>Name:</td>
+          <td>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              size="50"
+              class="padding410"
+            />
+          </td>
+        </tr>
+
+        <!-- Address Section -->
+        <tr>
+          <td>Address:</td>
+          <td>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              size="50"
+              class="padding410"
+            />
+          </td>
+        </tr>
+
+        <!-- Region Section -->
+        <tr>
+          <td>Region:</td>
+          <td>
+            <select name="region" id="region" class="padding410">
+              <option value="NCR">NCR</option>
+              <option value="regionOne">Region I</option>
+              <option value="regionTwo">Region II</option>
+              <option value="regionThree">Region III</option>
+              <option value="regionFour">Region IV</option>
+              <option value="regionFive">Region V</option>
+              <option value="regionSix">Region VI</option>
+              <option value="regionSeven">Region VII</option>
+              <option value="regionEight">Region VIII</option>
+              <option value="regionNine">Region IX</option>
+              <option value="regionTen">Region X</option>
+              <option value="regionEleven">Region XI</option>
+              <option value="regionTwelve">Region XII</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- Contact Number Section-->
+        <tr>
+          <td>Contact Number:</td>
+          <td>
+            <input
+              type="text"
+              name="contactNumber"
+              id="contactNumber"
+              size="50"
+              maxlength="11"
+              class="padding410"
+            />
+          </td>
+        </tr>
+
+        <!-- Payment Method Section + Cash on Delivery -->
+        <tr>
+          <td>Payment Method:</td>
+          <td>
+            <input type="radio" name="paymentMethod" id="cod" value="cod" />
+            <label for="cod">Cash On Delivery</label>
+          </td>
+        </tr>
+
+        <!-- Master Card Option -->
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="radio"
+              name="paymentMethod"
+              id="masterCard"
+              value="masterCard"
+            />
+            <label for="masterCard">Master Card</label>
+          </td>
+        </tr>
+
+        <!-- Visa Option -->
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" name="paymentMethod" id="visa" value="visa" />
+            <label for="visa">Visa</label>
+          </td>
+        </tr>
+
+        <!-- American Express Option -->
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="radio"
+              name="paymentMethod"
+              id="americanExpress"
+              value="americanExpress"
+            />
+            <label for="americanExpress">American Express</label>
+          </td>
+        </tr>
+
+        <!-- Place Order Button -->
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="button"
+              value="Place Order"
+              class="button padding410 buttonPlaceOrder"
+            />
+          </td>
+        </tr>
+        <!-- End of Table -->
+      </table>
+    </div>
+  </body>
+</html>
+
+<!-- Property of Ryan Domincel -->

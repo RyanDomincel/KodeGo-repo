@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #EBE9DC;
+    font-size: 16px;
+}
+
+#mainWrapper2A {
+    width: 850px;
+    margin: 0 auto;
+}
+
+#mainWrapper2B {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#searchBar {
+    width: 70%;
+}
+
+#filter {
+    width: 15%;
+    border: none;
+}
+
+#searchButton {
+    width: 12%;
+    padding: 10px 4px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.padding410 {
+    padding: 10px 4px;
+
+}
+
+.insideTextCenter {
+    text-align: center;
+}
+
+.button {
+    background-color: #9FB03E;
+    border: 2px solid #9FB03E;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    padding: 5px 8px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonSearchBarStyle {
+    background-color: #72918B;
+    color: white;
+    border: 2px solid #72918B;
+}
+
+.buttonSearchBarStyle:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.buttonBuyNow {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.buttonBuyNow:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.buttonAddto {
+    background-color: white;
+    color: black;
+    border: 2px solid #9FB03E;
+}
+
+.buttonAddto:hover {
+    background-color: #9FB03E;
+    color: white;
+}
+
+.buttonPlaceOrder {
+    background-color: #9FB03E;
+    color: black;
+    border: 2px solid #9FB03E;
+}
+
+.buttonPlaceOrder:hover {
+    background-color: #9FB03E;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.trBorder {
+    border: 2px solid rgb(92, 92, 92);
+    height: 400px;
+    width: 90%;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.list-item {
+    float: left;
+    background-color: aqua;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
