@@ -1,0 +1,107 @@
+/* ---------------------------------------From the last session----- */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    float: left;
+}
+
+.list-item a {
+    float: left;
+    background-color: black;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+}
+
+.link:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* ---------------------------------------From the last session----- */
+
+
+/* ---------------From W3schools using div and anchor tags only----- */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* ---------------From W3schools using div and anchor tags only----- */
+
+
+ul.directUl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.directLi {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li.directLi:last-child {
+    border-right: none;
+    float: right;
+}
+
+li.directLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.directLi a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+} 
