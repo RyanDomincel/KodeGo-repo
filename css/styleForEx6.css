@@ -71,8 +71,8 @@
 
 /* ---------------From W3schools using div and anchor tags only----- */
 
-
-ul.directUl{
+/* ----------------------From W3schools using nav and ul and li----- */
+ul.directUl {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -104,4 +104,6 @@ li.directLi a:hover:not(.active) {
 
 .active {
     background-color: #04AA6D;
-} 
+}
+
+/* ----------------------From W3schools using nav and ul and li----- */
