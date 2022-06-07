@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:wght@100;300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    /* for smooth scrolling */
+    scroll-behavior: smooth; 
+    box-sizing: border-box;
+}
+
+:root {
+    --blackColor: #464647;
+    --hoverColor: #252321;
+    --activeColor: #0077b3;
+    --anotherBlue: #007fff;
+    --white: #f4f5f0;
+    --footer: #c0c6c9;
+}
+
+/* ------------------------------------------Header starts here */
+header {
+    padding: 30px;
+    text-align: center;
+    background: var(--white);
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+/* ------------------------------------------Header ends here */
+
+/*------------------------------------------ Navbar starts here */
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+ul.navUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--blackColor);
+}
+
+li.navLi {
+    float: left;
+}
+
+li.navLi a {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navLi a:hover:not(.active) {
+    background-color: var(--hoverColor);
+}
+
+.active {
+    background-color: var(--activeColor);
+}
+
+li.navLi:last-child {
+    float: right;
+}
+
+/*------------------------------------------ Navbar ends here */
+
+/*------------------------------------------ big hero text starts here */
+.bg-img {
+    background: url(/images/bg-profile.jpg)rgba(90, 99, 112, 0.45) no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 555px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+}
+
+.hero-h1 {
+    font-size: 45px;
+}
+
+button.button {
+    background-color: var(--anotherBlue);
+    border: none;
+    color: var(--white);
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button.button:hover {
+    background-color: var(--activeColor);
+    color: var(--white);
+}
+
+.button-rounded {
+    border-radius: 5px;
+}
+
+/*------------------------------------------ big hero text ends here */
+
+/*------------------------------------------ Sections starts here */
+.content {
+    padding: 10px;
+    height: 100%;
+}
+
+.section {
+    padding-top: 49.2px;
+}
+
+/*-------------------------------------------- Section 1 starts here */
+.for-personal-info {
+    width: 91.75%;
+    margin: 0 auto;
+    height: 630px;
+    padding: 50px;
+    /* background-color: var(--footer); */
+}
+
+.for-image {
+    width: 50%;
+    float: left;
+}
+
+.for-image img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .3);
+}
+
+.for-text {
+    width: 50%;
+    float: left;
+    display: table;
+    height: 510px;
+    overflow: hidden;
+}
+
+.contents-inside {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.for-text h1 {
+    font-size: 40px;
+}
+
+.for-text h4 {
+    color: var(--footer);
+}
+
+/* --------------------------------------------Section 2 Starts here */
+.for-gallery {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    text-align: center;
+    /* background-color: var(--footer); */
+    margin-bottom: 20px;
+}
+
+.for-title-gallery {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.for-title-gallery h1, .for-title-hobbies h1 ,.for-title-tutorials h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.for-gallery img {
+    width: 100%;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column2 {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img, .column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+.column img:hover, .column2 img:hover {
+    opacity: 1;
+    transition: .4 ease;
+    cursor: pointer;
+}
+
+.centered-button {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.centered-button h3 {
+    text-align: center;
+}
+
+.centered-button h3 a {
+    text-decoration: none;
+}
+
+/*--------------------------------------------------section 3 starts here */
+.for-hobbies {
+    width: 91.75%;
+    margin: 0 auto;
+    height: auto;
+    padding: 50px;
+    /* background-color: var(--footer); */
+    margin-bottom: 20px;
+}
+
+.table-area {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table-area table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr.trBorder {
+    border: 2px solid var(--blackColor);
+    height: auto;
+}
+
+.table-area table td {
+    padding: 10px;
+}
+
+.hidden-base-for-tr td {
+    width: calc(700px /4);
+}
+
+.td-text-align-left {
+    text-align: left;
+}
+
+.td-text-align-right {
+    text-align: right;
+}
+
+/*--------------------------------------------------section 4 starts here */
+.for-tutorials {
+    width: 91.75%;
+    margin: 0 auto;
+    height: auto;
+    padding: 50px;
+    /* background-color: var(--footer); */
+    margin-bottom: 20px;
+}
+.td-text-align-left a{
+    text-decoration: none;
+    color: var(--anotherBlue);
+}
+.td-text-align-left a:hover{
+    color: var(--activeColor);
+}
+.td-text-align-left a:visited{
+color: var(--anotherBlue);
+}
+
+
+/*------------------------------------------------------ Footer here */
+footer {
+    background: var(--hoverColor);
+    height: auto;
+    width: 100%;
+    padding: 20px 0px;
+    color: var(--white);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.socials a svg {
+    width: 25px;
+}
+
+path.fill {
+    fill: var(--white);
+}
+
+.socials a:hover path.fill {
+    fill: var(--anotherBlue);
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: var(--anotherBlue);
+    font-size: 16px;
+    text-decoration: none;
+}
